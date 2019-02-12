@@ -1,4 +1,10 @@
 export {
+  auth,
+  logout,
+  setAuthRedirectPath
+} from './auth';
+
+export {
   initIngredients,
   addIngredient,
   removeIngredient
